@@ -1,0 +1,101 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+nav li:last-child {
+  margin-right: 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+h1, h2 {
+  font-size: 1.5em;
+  margin-top:0;
+}
+h2 {
+margin-top: 1em;
+}
+.blog-list {
+margin-top: 2em;
+}
+.blog-list ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.blog-list li {
+margin-bottom: 2em;
+border-bottom: 1px solid #ccc;
+padding-bottom: 1em;
+}
+.blog-list li:last-child {
+margin-bottom: 0;
+border-bottom: none;
+padding-bottom: 0;
+}
+.blog-list h2 {
+font-size: 1.2em;
+margin-bottom: 0.5em;
+}
+.blog-list p {
+margin: 0;
+}
+.blog-list p:last-child {
+margin-top: 0.5em;
+}
+.sort {
+margin-top: 1em;
+display: flex;
+align-items: center;
+}
+.sort label {
+margin-right: 0.5em;
+}
+.sort select {
+padding: 0.5em;
+}
+form {
+margin-top: 1em;
+display: flex;
+align-items: center;
+}
+form input[type="text"] {
+padding: 0.5em;
+flex: 1;
+}
+form button[type="submit"] {
+padding: 0.5em;
+background-color: #333;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+form button[type="submit"]:hover {
+background-color: #555;
+}
+footer {
+background-color: #ccc;
+padding: 1em;
+text-align: center;
+} 
